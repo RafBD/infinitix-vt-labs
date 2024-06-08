@@ -1,0 +1,116 @@
+:root {
+  --morado-obscuro: #56377C;
+  --morado-hover: #5D3F81;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+  
+.topbar {
+    background-color: #6D41A1;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    gap: 10px;
+}
+
+.topbar button {
+  background-color: var(--morado-obscuro);
+}
+  
+.saludo {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+  
+img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+  
+.topbar button {
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.topbar button:hover {
+    background-color: var(--morado-hover);
+    scale: 1.05;
+    transition: scale 0.3s ease-in-out;
+}
+  
+@media (max-width: 600px) {
+    .topbar {
+        justify-content: center;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .saludo {
+        font-size: 0.875rem;
+        padding: 8px 16px;
+    }
+
+    button {
+        width: 4rem;
+        height: 2.5rem;
+        font-size: 0.875rem;
+    }
+}
+  
+@media (min-width: 601px) and (max-width: 900px) {
+    .topbar {
+        justify-content: center;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .saludo {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    button {
+        width: 4.5rem;
+        height: 2.75rem;
+        font-size: 0.9375rem;
+    }
+}
+
+@media (min-width: 901px) {
+    .topbar {
+        justify-content: flex-end;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    .saludo {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    button {
+        width: 5rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+}
