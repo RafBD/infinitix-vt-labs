@@ -4,14 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from '@auth0/auth0-react';
-import config from './auth_config.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Auth0Provider
-    domain = {config.domain}
-    clientId = {config.clientId}
+    domain = "dev-obinb706lll8exre.us.auth0.com"
+    clientId = "sFYv4ZNECXObneWy4Tiy1pBF5MXGUK48"
     authorizationParams={{
       redirect_uri: window.location.origin
     }}>
