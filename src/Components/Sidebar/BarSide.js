@@ -5,6 +5,7 @@ import { Button } from 'primereact/button';
 import { Ripple } from 'primereact/ripple';
 import { StyleClass } from 'primereact/styleclass';
 import 'primeicons/primeicons.css';
+import logo from "../../Icons/logo.svg" 
 import './BarSide.css';
 
 export default function BarSide() {
@@ -19,7 +20,8 @@ export default function BarSide() {
             <Sidebar visible={visible} onHide={() => setVisible(false)}>
                 <div className="sidebar">
                     <div className="logo-container">
-                        <img src="/Icons/logoInfini.svg" alt="Logo de iNFiNiTiX " />
+                        <img src="" alt="Logo de iNFiNiTiX " />
+                        <img src={logo} className='logo'/>
                         <h2>iNFiNiTiX</h2>
                     </div>
                     <div>
