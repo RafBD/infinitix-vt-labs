@@ -1,0 +1,81 @@
+:root {
+  --morado-obscuro: #56377C;
+  --morado: #6d41a1;
+  --morado-hover: #5D3F81;
+}
+
+.facturas {
+    padding: 2rem;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    color: #f2f0f0;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--morado-obscuro);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .p-inputgroup {
+    width: 300px;
+    border: solid white 1px;
+    border-radius: .5rem;
+  }
+  
+  .p-datatable-customers {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .p-datatable-customers .p-datatable-header {
+    background-color:  var(--morado-obscuro);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .p-datatable-customers .p-datatable-thead > tr > th {
+    background-color: #e3f2fd;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .p-datatable-customers .p-datatable-tbody > tr > td {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .p-datatable-customers .p-datatable-tbody > tr.p-datatable-even {
+    background-color: #f9f9f9;
+  }
+  
+  .p-datatable-customers .p-datatable-tbody > tr.p-datatable-odd {
+    background-color: #fff;
+  }
+  
+  .p-datatable-customers .p-paginator {
+    background-color: #e3f2fd;
+    border-top: none;
+  }
+  
+  @media (max-width: 768px) {
+    .p-inputgroup {
+      width: 100%;
+    }
+  
+    .table-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

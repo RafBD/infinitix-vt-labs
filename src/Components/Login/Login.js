@@ -10,14 +10,14 @@ const LoginButton = () => {
     <div className="login">
       <div className="login-container">
         <img src={logo} alt="Logo de iNFiNiTiX" className="logo"/>
-        <h1>iNFiNiTiX</h1>
-        <p>
+        <h1 className="text-2xl mt-2">iNFiNiTiX</h1>
+        <p className="text-xl">
           Inicia Sesión para acceder a todas las funciones de la aplicación
         </p>
         
       </div>
 
-      <button onClick={() => loginWithRedirect()} className="login-btn">Log In</button>
+      <button onClick={() => loginWithRedirect()} className="login-btn mt-3">Log In</button>
     </div>
   )
   

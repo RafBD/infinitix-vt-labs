@@ -1,116 +1,161 @@
 :root {
   --morado-obscuro: #56377C;
+  --morado: #6d41a1;
   --morado-hover: #5D3F81;
-
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
-  
+
 .topbar {
-    background-color: #6D41A1;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    gap: 10px;
+  position: relative;
+  background-color: var(--morado);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  gap: 10px;
 }
 
-.topbar button {
-  background-color: var(--morado-obscuro);
-}
-  
 .saludo {
-    color: #fff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--morado-obscuro);
+  transition: background-color 0.3s ease;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.dropdown-container {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  z-index: 1;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-img {
+    cursor: pointer;
+}
+
+.imagen_usuario {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+
+.icons-container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icons-container i {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.icons-container i:hover {
+  color: #666;
+}
+
+.topbar button {
+  width: auto;
+  padding: 1rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  background-color: var(--morado-obscuro);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.topbar button:hover {
+  background-color: var(--morado-hover);
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+  }
+
+  .saludo {
+    font-size: 0.875rem;
+    padding: 8px 16px;
+  }
+
+  button {
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .topbar {
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .saludo {
     font-size: 1rem;
     padding: 10px 20px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-    font-weight: bold;
-}
-  
-img {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-}
-  
-.topbar button {
-    width: 5rem;
-    height: 3rem;
-    font-size: 1rem;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-  
-.topbar button:hover {
-    background-color: var(--morado-hover);
-    scale: 1.05;
-    transition: scale 0.3s ease-in-out;
-}
-  
-@media (max-width: 600px) {
-    .topbar {
-        justify-content: center;
-        padding: 5px;
-        gap: 5px;
-    }
+  }
 
-    .saludo {
-        font-size: 0.875rem;
-        padding: 8px 16px;
-    }
-
-    button {
-        width: 4rem;
-        height: 2.5rem;
-        font-size: 0.875rem;
-    }
-}
-  
-@media (min-width: 601px) and (max-width: 900px) {
-    .topbar {
-        justify-content: center;
-        padding: 8px;
-        gap: 8px;
-    }
-
-    .saludo {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-
-    button {
-        width: 4.5rem;
-        height: 2.75rem;
-        font-size: 0.9375rem;
-    }
+  button {
+    width: 4.5rem;
+    height: 2.75rem;
+    font-size: 0.9375rem;
+  }
 }
 
 @media (min-width: 901px) {
-    .topbar {
-        justify-content: flex-end;
-        padding: 10px 20px;
-        gap: 10px;
-    }
+  .topbar {
+    justify-content: flex-end;
+    padding: 10px 20px;
+    gap: 10px;
+  }
 
-    .saludo {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
+  .saludo {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
 
-    button {
-        width: 5rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
+  button {
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
 }

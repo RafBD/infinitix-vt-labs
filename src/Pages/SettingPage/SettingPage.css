@@ -1,0 +1,19 @@
+:root {
+    --morado-obscuro: #56377C;
+    --morado: #6d41a1;
+    --morado-hover: #5D3F81;
+  }
+
+  .btn {
+    background: var(--morado-obscuro) !important;
+
+    &:hover {
+      background: var(--morado-hover) !important;
+    }
+  }
+
+  .input-password:focus {
+    border-color: var(--morado) !important;
+
+    
+  }

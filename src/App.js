@@ -1,29 +1,44 @@
-import './App.css';
+import { PrimeReactProvider } from 'primereact/api';
 import { useAuth0 } from '@auth0/auth0-react';
 import LoginButton from './Components/Login/Login';
 import Topbar from './Components/Topbar/Topbar';
-import { HashRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Dashboard from './Pages/DashBoard/Dashboard';
+import Clientes from './Clientes/Clientes';
+import Facturas from './Pages/Factura/Factura.js';
+import Tutoriales from './Pages/Tutoriales/Tutoriales';
+import SettingPage from './Pages/SettingPage/SettingPage';
+
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import './App.css';
 
 function App() {
-  const { isAuthenticated, isLoading, error } = useAuth0();
-
-  if (isLoading) return <div>Loading...</div>;
-  if (error) return <div>Oops... {error.message}</div>;
+  const { isAuthenticated} = useAuth0();
+  console.log('Dashboard importado', Dashboard)
 
   console.log("Is Authenticated:", isAuthenticated);
 
   return (
-    <Router>
-      <div className="App">
-        {isAuthenticated ? (
-          <>
-            <Topbar />
-          </>
-        ) : (
-          <LoginButton />
-        )}
-      </div>
-    </Router>
+    <PrimeReactProvider>
+      <Router>
+        <div className="App">
+          {isAuthenticated ? (
+            <>
+              <Topbar />
+              <Routes>
+                <Route path="/Dashboard" element={<Dashboard />} />
+                <Route path="/Settings" element={<SettingPage />} />
+                <Route path="/Clientes" element={<Clientes />} />
+                <Route path="/Facturas" element={<Facturas />} />
+                <Route path="/Tutoriales" element={<Tutoriales />} />
+              </Routes>
+            </>
+          ) : (
+            <LoginButton />
+          )}
+        </div>
+      </Router>
+    </PrimeReactProvider>
   );
 }
 
