@@ -7,7 +7,7 @@ export const LogOutButton = () => {
         <button className='flex justify-center items-center gap-2' onClick = {() => logout()}>
         <i className="pi pi-sign-out"></i>
         Cerrar Sesión
-    </button>
+        </button>
         /*
         <button
         onClick={() =>
