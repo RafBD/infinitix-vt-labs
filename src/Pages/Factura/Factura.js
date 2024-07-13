@@ -23,9 +23,8 @@ export default function Factura() {
 
   const header = (
     <div className="table-header">
-      <h2 className="titulo">Facturas</h2>
       <div className="p-inputgroup">
-        <InputText className='rounded-l-lg' type="search" onInput={(e) => setGlobalFilter(e.target.value)} placeholder="Buscar facturas..." />
+        <InputText type="search" onInput={(e) => setGlobalFilter(e.target.value)} placeholder="Buscar facturas..." />
         <Button icon="pi pi-search" />
       </div>
     </div>
@@ -33,6 +32,8 @@ export default function Factura() {
 
   return (
     <div className="facturas">
+      <h2 className="titulof">Facturas</h2>
+      <hr className="mb-3 mx-3 border-top-2 border-bottom-1" />
       <div className="card">
         <DataTable
           value={facturas}

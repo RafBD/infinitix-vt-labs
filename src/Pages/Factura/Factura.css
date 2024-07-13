@@ -8,12 +8,12 @@
     padding: 2rem;
   }
   
-  .titulo {
+  .titulof {
     font-size: 2rem;
     color: #f2f0f0;
     font-weight: bold;
     letter-spacing: .1rem;
-    text-align: center;
+    text-align: start;
     margin-bottom: 1rem;
   }
   
@@ -28,10 +28,26 @@
     margin-bottom: 1rem;
   }
   
+  .p-inputgroup .p-inputtext {
+    border: none;
+    border-radius: 0.4rem 0 0 .4rem;
+    padding: 0.5rem 1rem;
+    color: black;
+  }
+  
   .p-inputgroup {
+    margin-left: auto;
+    margin-right: 0;
     width: 300px;
     border: solid white 1px;
     border-radius: .5rem;
+  }
+
+  
+
+  .p-inputtext .p-inputtext-input {
+    color: black;
+    border: none;
   }
   
   .p-datatable-customers {

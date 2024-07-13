@@ -4,7 +4,7 @@ import LoginButton from './Components/Login/Login';
 import Topbar from './Components/Topbar/Topbar';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Dashboard from './Pages/DashBoard/Dashboard';
-import Clientes from './Clientes/Clientes';
+import Clientes from './Pages/Clientes/Clientes.js';
 import Facturas from './Pages/Factura/Factura.js';
 import Tutoriales from './Pages/Tutoriales/Tutoriales';
 import SettingPage from './Pages/SettingPage/SettingPage';

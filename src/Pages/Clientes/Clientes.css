@@ -1,0 +1,102 @@
+/* Clientes.css */
+
+/* Contenedor principal */
+.contenedor-principal {
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #56377C; /* Color de fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  /* Título principal */
+  .clientes {
+    color: #f9f8f8; /* Color de texto gris oscuro */
+    text-align: center; /* Alineación central */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  /* Línea divisoria */
+  .linea-divisoria {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #56377C; /* Color de borde gris claro */
+  }
+  
+  /* Sección de pestañas */
+  .seccion-tabview {
+    margin-bottom: 40px;
+  }
+  
+  /* Pestañas de PrimeReact */
+  .p-tabview .p-tabview-nav {
+    background-color: #56377C; /* Color de fondo gris claro */
+    border: 1px solid #ccc; /* Color de borde gris claro */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .p-tabview-tab {
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .p-tabview-tab:hover {
+    background-color: #56377C; /* Color de fondo al pasar el cursor */
+  }
+  
+  .p-tabview-tab.p-tabview-selected {
+    background-color: #fff; /* Color de fondo para la pestaña seleccionada */
+    border-bottom: 2px solid #56377C; /* Color azul para la pestaña activa */
+  }
+  
+  /* Contenido de las pestañas */
+  .p-tabview-content {
+    padding: 20px;
+  }
+  
+  /* Contenido de las secciones */
+  .contenido-tab {
+    color: #56377C; /* Color de texto gris oscuro */
+    line-height: 1.5; /* Espacio entre líneas */
+  }
+  
+  /* Tabla de PrimeReact */
+  .p-datatable th,
+  .p-datatable td {
+    border: 1px solid #ddd; /* Color de borde gris claro */
+    padding: 8px; /* Ajuste el relleno según tus preferencias */
+  }
+  
+  .p-datatable thead th {
+    background-color: #f5f5f9; /* Color de fondo gris claro para el encabezado */
+    font-weight: bold;
+  }
+  
+  /* Personalización adicional */
+  .p-datatable .p-datatable-cells .p-datatable-cell-content {
+    text-align: center; /* Centra el contenido de las celdas */
+  }
+  
+  .p-datatable .p-datatable-header .p-datatable-header-column {
+    text-align: center; /* Centra el contenido de los encabezados de las columnas */
+  }
+  
+  /* Botones (puedes agregar estilos propios para botones) */
+  .btn {
+    background-color: #475461; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+  }
