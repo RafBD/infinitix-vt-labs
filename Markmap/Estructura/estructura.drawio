@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YiBGTAWkmrxO9-MbJX0j" name="Page-1">
-        <mxGraphModel dx="2225" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3582" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -18,19 +18,29 @@
                     <mxGeometry x="15" y="40" width="215" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Menú Desplegable" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="123" width="215" height="97" as="geometry"/>
+                    <mxGeometry x="520" y="60" width="215" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Foto de Perfil del usuario&lt;br&gt;Saludo al usuario&lt;br&gt;Icono (Botón) para enviar un correo electrónico&lt;br&gt;Icono (Botón) para ver tu calendario&lt;br&gt;Botón de cerrar sesión&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7" vertex="1">
-                    <mxGeometry y="27" width="215" height="60" as="geometry"/>
+                <mxCell id="8" value="Foto de Perfil del usuario&lt;br&gt;Saludo al usuario&lt;br&gt;Iconos de notificación, calendario y correo&lt;br&gt;Botón de configuración del usuario&lt;br&gt;Botón de cerrar sesión" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7" vertex="1">
+                    <mxGeometry y="27" width="215" height="113" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="450" y="360.25" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="17" edge="1">
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="410" y="500.7936314174107" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="636.6666259765625" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="SideBar" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
@@ -38,7 +48,7 @@
                         <mxRectangle x="200" y="70" width="80" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" value="Logo y nombre de la empresa&lt;br&gt;Menú desplegable&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Dashboard&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Clientes&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Calendario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                <mxCell id="12" value="Logo y nombre de la empresa&lt;br&gt;Menú desplegable&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Dashboard&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Clientes&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Facturas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Tutoriales" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
                     <mxGeometry x="7.5" y="30" width="175" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Clientes" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
@@ -50,39 +60,66 @@
                     <mxGeometry x="25" y="35" width="105" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Dashboard" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
-                    <mxGeometry x="420" y="450" width="152.5" height="125" as="geometry">
+                    <mxGeometry x="450" y="440" width="230" height="180" as="geometry">
                         <mxRectangle x="200" y="70" width="80" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="Cuatro Cards&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Clientes Nuevos&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Clientes Actuales&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Clientes Totales&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Clientes Perdidos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="17" vertex="1">
-                    <mxGeometry y="35" width="152.5" height="90" as="geometry"/>
+                <mxCell id="18" value="Cuatro Cards&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Retención de Clientes&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Tasa de Conversión&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Satisfacción del cliente&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Respuesta del Servicio al Cliente&lt;br&gt;Gráficos&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Productos más vendidos&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Ventas Totales (Miles de Pesos)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="17" vertex="1">
+                    <mxGeometry y="28" width="230" height="145" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19">
+                <mxCell id="21" style="edgeStyle=none;html=1;" parent="1" source="19" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-280" y="165" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="LogIn" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                <mxCell id="19" value="LogIn" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="-620" y="110" width="250" height="110" as="geometry">
                         <mxRectangle x="200" y="70" width="80" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="Logo de la empresa&lt;br&gt;Nombre de la empresa&lt;br&gt;Botón de Inicio de Sesión (LogIn)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                <mxCell id="20" value="Logo de la empresa&lt;br&gt;Nombre de la empresa&lt;br&gt;Botón de Inicio de Sesión (LogIn)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="19" vertex="1">
                     <mxGeometry x="15" y="40" width="215" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="2">
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22" target="2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="11">
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Formulario de Inicio de Sesión" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                <mxCell id="22" value="Formulario de Inicio de Sesión" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="-277" y="110" width="250" height="180" as="geometry">
                         <mxRectangle x="200" y="70" width="80" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="Logo de la empresa&lt;br&gt;Nombre de la empresa&lt;br&gt;Opciones de Inicio de Sesión&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Iniciar con Google&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Ingresar correo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Ingresar contraseña&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Olvidé contraseña&lt;br&gt;Botón de Iniciar Sesión" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                <mxCell id="23" value="Logo de la empresa&lt;br&gt;Nombre de la empresa&lt;br&gt;Opciones de Inicio de Sesión&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Iniciar con Google&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Ingresar correo&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Ingresar contraseña&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Olvidé contraseña&lt;br&gt;Botón de Iniciar Sesión" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
                     <mxGeometry x="17.5" y="40" width="215" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Facturas" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="7" y="500" width="150" height="170" as="geometry">
+                        <mxRectangle x="200" y="70" width="80" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Tabla&amp;nbsp; Facturas&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Número&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Cliente&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Fecha&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Monto&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Estado&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Acciones&lt;br&gt;- Paginación de tabla" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="27">
+                    <mxGeometry x="22.5" y="40" width="105" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Tutoriales" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="254.5" y="600" width="152.5" height="190" as="geometry">
+                        <mxRectangle x="200" y="70" width="80" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Tutoriales&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Tutorial de Inicio de &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;Sesión&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Tutorial de &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;Configuración y &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;Menú de Usuario&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Tutorial de Páginas &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;del Sistema &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;(Dashboard, Clientes, &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;Facturas)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="30" width="152.5" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="820" y="143.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Configuración" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="60" width="215" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Card de Imagen de Perfil&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;-&amp;nbsp; Imagen de Perfil del usuario&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Botón de visibilidad de la &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;imagen&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Botón de abrir cámara&amp;nbsp;&lt;br&gt;Card de Cambiar Contraseña&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Cuadro para ingresar nueva &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;contraseña&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Cuadro para confirmar la &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;nueva contraseña&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- Botón de cambiar contraseña" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="27" width="215" height="173" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
