@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Infinitix CRM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Infinitix es una aplicación CRM construida con React y Auth0 para la autenticación. Este proyecto está organizado con varios componentes y páginas, proporcionando una experiencia de usuario fluida para gestionar clientes, facturas y paneles de control.
 
-## Available Scripts
+### Tabla de Contenidos
 
-In the project directory, you can run:
+- [Infinitix CRM](#infinitix-crm)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Estructura del Proyecto](#estructura-del-proyecto)
+  - [Instalación](#instalación)
+  - [Scripts Disponibles](#scripts-disponibles)
+  - [Plugins y Herramientas](#plugins-y-herramientas)
 
-### `npm start`
+### Estructura del Proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+infinitix/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Login/
+│ │ │ ├── Login.js
+│ │ ├── Logout/
+│ │ │ ├── Logout.js
+│ │ ├── Profile/
+│ │ │ ├── Profile.js
+│ │ ├── Sidebar/
+│ │ │ ├── Sidebar.js
+│ │ ├── Topbar/
+│ │ │ ├── Topbar.js
+│ ├── img/
+│ │ ├── background.png
+│ ├── pages/
+│ │ ├── Clientes/
+│ │ │ ├── Clientes.js
+│ │ ├── Dashboard/
+│ │ │ ├── Dashboard.js
+│ │ ├── Factura/
+│ │ │ ├── Factura.js
+│ ├── App.js
+│ ├── App.css
+├── package.json
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalación
 
-### `npm test`
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/rafbd/infi_crm.git
+2. Navega al directorio del proyecto:
+    ```bash
+    cd infi_crm
+3. Instala las dependencias:
+    ```bash
+    npm install
+4. Inicia el servidor de desarrollo:
+    ```bash
+    npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### Esto ejecutará la aplicación en modo desarrollo. Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
-### `npm run build`
+### Autenticación:
+La aplicación utiliza Auth0 para la autenticación. Inicialmente, verás un botón de inicio de sesión que te redirigirá a la página de inicio de sesión de Auth0.
+Una vez autenticado, serás redirigido de vuelta a la aplicación donde podrás acceder a varias funciones como la barra superior y la barra lateral para navegación.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Navegación:
+**Topbar:** Contiene opciones para ver el perfil del usuario logueado, notificaciones, mensajes y configuraciones. También tiene un botón de cierre de sesión.
+**Sidebar:** Proporciona navegación a diferentes páginas como Dashboard, Clientes y Factura. Al hacer clic en estas opciones se actualizará el área central de visualización en consecuencia.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Scripts Disponibles
+En el directorio del proyecto, puedes ejecutar:
+  ```
+  npm start
+  ```
+Ejecuta la aplicación en modo desarrollo.
+Abre http://localhost:3000 para verla en tu navegador. La página se recargará cuando hagas cambios.
+También puedes ver cualquier error en la consola.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Lanza el corredor de pruebas en modo interactivo.
+Consulta la sección sobre ejecutar pruebas para más información.
+  ```
+  npm test
+  ```
 
-### `npm run eject`
+Construye la aplicación para producción en la carpeta build.
+Agrupa correctamente React en modo de producción y optimiza la construcción para obtener el mejor rendimiento. La construcción está minificada y los nombres de archivo incluyen los hashes.
+¡Tu aplicación está lista para ser desplegada!
+  ```
+  npm run build
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Nota: esta es una operación unidireccional. Una vez que eject, no puedes volver atrás!
+Si no estás satisfecho con la herramienta de construcción y las opciones de configuración, puedes eject en cualquier momento. Este comando eliminará la única dependencia de construcción de tu proyecto.
+  ```
+  npm run eject
+  ```
+Falla al minificar
+Consulta la sección sobre solución de problemas para más información.
+  ```
+  npm run build 
+  ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Plugins y Herramientas
+Este proyecto utiliza los siguientes plugins y herramientas:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**React:** Una biblioteca de JavaScript para construir interfaces de usuario.
+**Auth0:** Servicio de autenticación y autorización.
+**PrimeReact:** Una colección de componentes de UI para React.
+**React Router:** Librería para el enrutamiento en React.
+**Tremor:** Biblioteca para visualización de datos.
+**CSS:** Para el estilo de la aplicación.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para instalar estos plugins, **asegúrate de que las siguientes dependencias están en tu archivo package.json:**
+  ```
+  {
+    "dependencies": {
+      "@auth0/auth0-react": "^1.8.0",
+      "primereact": "^6.5.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^5.2.0",
+      "@tremor/react": "^2.0.0"
+    }
+  }
+  ```
