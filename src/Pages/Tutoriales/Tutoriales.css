@@ -23,6 +23,8 @@
     font-weight: bold;
     margin-bottom: 1rem;
     color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente para mejor legibilidad */
 }
 
 .pi-video {
