@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/infinitix-vt-labs/static/css/main.440414e7.css",
-    "main.js": "/infinitix-vt-labs/static/js/main.8305f79d.js",
+    "main.css": "/infinitix-vt-labs/static/css/main.62036dae.css",
+    "main.js": "/infinitix-vt-labs/static/js/main.214ae718.js",
     "static/js/214.be12e35f.chunk.js": "/infinitix-vt-labs/static/js/214.be12e35f.chunk.js",
     "static/js/453.8d1e106d.chunk.js": "/infinitix-vt-labs/static/js/453.8d1e106d.chunk.js",
     "static/media/fondo.gif": "/infinitix-vt-labs/static/media/fondo.6fee42cc036dbbadbcab.gif",
@@ -14,13 +14,13 @@
     "static/media/primeicons.woff2": "/infinitix-vt-labs/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "static/media/logo.svg": "/infinitix-vt-labs/static/media/logo.deb706682fd4d57d1c5b925b136ba36f.svg",
     "index.html": "/infinitix-vt-labs/index.html",
-    "main.440414e7.css.map": "/infinitix-vt-labs/static/css/main.440414e7.css.map",
-    "main.8305f79d.js.map": "/infinitix-vt-labs/static/js/main.8305f79d.js.map",
+    "main.62036dae.css.map": "/infinitix-vt-labs/static/css/main.62036dae.css.map",
+    "main.214ae718.js.map": "/infinitix-vt-labs/static/js/main.214ae718.js.map",
     "214.be12e35f.chunk.js.map": "/infinitix-vt-labs/static/js/214.be12e35f.chunk.js.map",
     "453.8d1e106d.chunk.js.map": "/infinitix-vt-labs/static/js/453.8d1e106d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.440414e7.css",
-    "static/js/main.8305f79d.js"
+    "static/css/main.62036dae.css",
+    "static/js/main.214ae718.js"
   ]
 }
