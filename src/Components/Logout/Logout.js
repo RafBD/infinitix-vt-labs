@@ -7,7 +7,7 @@ export const LogOutButton = () => {
         <button
         onClick={() =>
             logout({
-            logoutParams: { returnTo: "https://rafbd.github.io/infi_crm/" },
+            logoutParams: { returnTo: "https://rafbd.github.io/infinitix-vt-labs" },
             })
         }
         >

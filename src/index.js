@@ -12,7 +12,7 @@ root.render(
     <Auth0Provider
     domain = "dev-obinb706lll8exre.us.auth0.com"
     clientId = "sFYv4ZNECXObneWy4Tiy1pBF5MXGUK48"
-    authorizationParams={{redirect_uri: "https://rafbd.github.io/infi_crm/"}}>
+    authorizationParams={{redirect_uri: "https://rafbd.github.io/infinitix-vt-labs"}}>
       {/* redirect_uri: "https://rafbd.github.io/infi_crm/" */}
       <App />
     </Auth0Provider>
