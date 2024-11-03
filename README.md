@@ -41,6 +41,7 @@ infinitix/
 │ ├── App.css
 ├── package.json
 
+```
 
 ### Instalación
 
