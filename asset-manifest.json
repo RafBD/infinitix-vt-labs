@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/GestionEscolarYasal/static/css/main.c90f9fd6.css",
-    "main.js": "/GestionEscolarYasal/static/js/main.f650c21e.js",
+    "main.css": "/GestionEscolarYasal/static/css/main.d84c232c.css",
+    "main.js": "/GestionEscolarYasal/static/js/main.b93e2f2d.js",
     "static/js/239.dbce9f3c.chunk.js": "/GestionEscolarYasal/static/js/239.dbce9f3c.chunk.js",
     "static/js/213.f407bed4.chunk.js": "/GestionEscolarYasal/static/js/213.f407bed4.chunk.js",
-    "static/js/455.af36c919.chunk.js": "/GestionEscolarYasal/static/js/455.af36c919.chunk.js",
+    "static/js/455.ff62ef77.chunk.js": "/GestionEscolarYasal/static/js/455.ff62ef77.chunk.js",
     "static/js/453.8d1e106d.chunk.js": "/GestionEscolarYasal/static/js/453.8d1e106d.chunk.js",
     "static/media/Inter-italic.var.woff2?v=3.19": "/GestionEscolarYasal/static/media/Inter-italic.var.184ec460d45b3caf5b0b.woff2",
     "static/media/Inter-roman.var.woff2?v=3.19": "/GestionEscolarYasal/static/media/Inter-roman.var.71b058b66381db72226b.woff2",
@@ -16,15 +16,15 @@
     "static/media/primeicons.woff2": "/GestionEscolarYasal/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "static/media/logo.svg": "/GestionEscolarYasal/static/media/logo.b2e1efad0af449fc8010aad4ecfd6e16.svg",
     "index.html": "/GestionEscolarYasal/index.html",
-    "main.c90f9fd6.css.map": "/GestionEscolarYasal/static/css/main.c90f9fd6.css.map",
-    "main.f650c21e.js.map": "/GestionEscolarYasal/static/js/main.f650c21e.js.map",
+    "main.d84c232c.css.map": "/GestionEscolarYasal/static/css/main.d84c232c.css.map",
+    "main.b93e2f2d.js.map": "/GestionEscolarYasal/static/js/main.b93e2f2d.js.map",
     "239.dbce9f3c.chunk.js.map": "/GestionEscolarYasal/static/js/239.dbce9f3c.chunk.js.map",
     "213.f407bed4.chunk.js.map": "/GestionEscolarYasal/static/js/213.f407bed4.chunk.js.map",
-    "455.af36c919.chunk.js.map": "/GestionEscolarYasal/static/js/455.af36c919.chunk.js.map",
+    "455.ff62ef77.chunk.js.map": "/GestionEscolarYasal/static/js/455.ff62ef77.chunk.js.map",
     "453.8d1e106d.chunk.js.map": "/GestionEscolarYasal/static/js/453.8d1e106d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c90f9fd6.css",
-    "static/js/main.f650c21e.js"
+    "static/css/main.d84c232c.css",
+    "static/js/main.b93e2f2d.js"
   ]
 }
