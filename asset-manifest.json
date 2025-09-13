@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/infinitix-vt-labs/static/css/main.62036dae.css",
-    "main.js": "/infinitix-vt-labs/static/js/main.ed75934b.js",
-    "static/js/214.be12e35f.chunk.js": "/infinitix-vt-labs/static/js/214.be12e35f.chunk.js",
-    "static/js/453.8d1e106d.chunk.js": "/infinitix-vt-labs/static/js/453.8d1e106d.chunk.js",
-    "static/media/fondo.gif": "/infinitix-vt-labs/static/media/fondo.6fee42cc036dbbadbcab.gif",
-    "static/media/Inter-italic.var.woff2?v=3.19": "/infinitix-vt-labs/static/media/Inter-italic.var.184ec460d45b3caf5b0b.woff2",
-    "static/media/Inter-roman.var.woff2?v=3.19": "/infinitix-vt-labs/static/media/Inter-roman.var.71b058b66381db72226b.woff2",
-    "static/media/primeicons.svg": "/infinitix-vt-labs/static/media/primeicons.6ed59f962963a4a73af2.svg",
-    "static/media/primeicons.eot": "/infinitix-vt-labs/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
-    "static/media/primeicons.woff": "/infinitix-vt-labs/static/media/primeicons.8931fda1930c3bd21e96.woff",
-    "static/media/primeicons.ttf": "/infinitix-vt-labs/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
-    "static/media/primeicons.woff2": "/infinitix-vt-labs/static/media/primeicons.024b32cc7bf399b1a847.woff2",
-    "static/media/logo.svg": "/infinitix-vt-labs/static/media/logo.deb706682fd4d57d1c5b925b136ba36f.svg",
-    "index.html": "/infinitix-vt-labs/index.html",
-    "main.62036dae.css.map": "/infinitix-vt-labs/static/css/main.62036dae.css.map",
-    "main.ed75934b.js.map": "/infinitix-vt-labs/static/js/main.ed75934b.js.map",
-    "214.be12e35f.chunk.js.map": "/infinitix-vt-labs/static/js/214.be12e35f.chunk.js.map",
-    "453.8d1e106d.chunk.js.map": "/infinitix-vt-labs/static/js/453.8d1e106d.chunk.js.map"
+    "main.css": "/GestionEscolarYasal/static/css/main.c90f9fd6.css",
+    "main.js": "/GestionEscolarYasal/static/js/main.f650c21e.js",
+    "static/js/239.dbce9f3c.chunk.js": "/GestionEscolarYasal/static/js/239.dbce9f3c.chunk.js",
+    "static/js/213.f407bed4.chunk.js": "/GestionEscolarYasal/static/js/213.f407bed4.chunk.js",
+    "static/js/455.af36c919.chunk.js": "/GestionEscolarYasal/static/js/455.af36c919.chunk.js",
+    "static/js/453.8d1e106d.chunk.js": "/GestionEscolarYasal/static/js/453.8d1e106d.chunk.js",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/GestionEscolarYasal/static/media/Inter-italic.var.184ec460d45b3caf5b0b.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/GestionEscolarYasal/static/media/Inter-roman.var.71b058b66381db72226b.woff2",
+    "static/media/primeicons.svg": "/GestionEscolarYasal/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/primeicons.eot": "/GestionEscolarYasal/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/GestionEscolarYasal/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/GestionEscolarYasal/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/LogoSimon.webp": "/GestionEscolarYasal/static/media/LogoSimon.d534b668651255d2fb86.webp",
+    "static/media/primeicons.woff2": "/GestionEscolarYasal/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/logo.svg": "/GestionEscolarYasal/static/media/logo.b2e1efad0af449fc8010aad4ecfd6e16.svg",
+    "index.html": "/GestionEscolarYasal/index.html",
+    "main.c90f9fd6.css.map": "/GestionEscolarYasal/static/css/main.c90f9fd6.css.map",
+    "main.f650c21e.js.map": "/GestionEscolarYasal/static/js/main.f650c21e.js.map",
+    "239.dbce9f3c.chunk.js.map": "/GestionEscolarYasal/static/js/239.dbce9f3c.chunk.js.map",
+    "213.f407bed4.chunk.js.map": "/GestionEscolarYasal/static/js/213.f407bed4.chunk.js.map",
+    "455.af36c919.chunk.js.map": "/GestionEscolarYasal/static/js/455.af36c919.chunk.js.map",
+    "453.8d1e106d.chunk.js.map": "/GestionEscolarYasal/static/js/453.8d1e106d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62036dae.css",
-    "static/js/main.ed75934b.js"
+    "static/css/main.c90f9fd6.css",
+    "static/js/main.f650c21e.js"
   ]
 }
